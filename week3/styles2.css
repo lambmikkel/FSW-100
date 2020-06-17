@@ -1,11 +1,6 @@
 #blue {
   color: blue;
 }
-table, th, td {
-  border: 2px solid black;
-  text-align: center;
-  
-}
 ul {
   list-style-type: none;
   margin: auto;
@@ -16,18 +11,6 @@ ul {
   width: 40%
  
 }
-body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background-color: lightsalmon;
-}
-table {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: yellow;
-}
-.navbar a {
-  float: left;
-  padding: 12px;
-  background-color: chartreuse;
-
-}
+table, th, td {
+border: 2px solid black;
+ }
