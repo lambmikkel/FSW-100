@@ -6,7 +6,13 @@
 }
 p {
   float: center;
+  padding: 5px;
+  border: 1px solid black; moz-border-radius:6px; webkit-border-radius:6px;
+  background:#ffffff;
+
 }
 .img {
  float: left;
+ padding: 1px;
+ border: 1px solid black;
 }
