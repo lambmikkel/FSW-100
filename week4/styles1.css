@@ -1,0 +1,35 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.topnav a.active {
+  background-color: orangered;
+  color: white;
+}
+img {
+  position: relative;
+}
+p,
+article {
+  float: auto;
+  padding: 5px;
+  border: 1px solid black;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+body {
+  float: auto;
+  font-size: 20px;
+}

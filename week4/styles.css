@@ -5,14 +5,19 @@
   width: 100%;
 }
 p {
-  float: center;
-  padding: 5px;
-  border: 1px solid black; moz-border-radius:6px; webkit-border-radius:6px;
-  background:#ffffff;
-
+  padding: 10px;
+  position: auto;
+  background: #ffffff;
+  border: 3px;
+  font-size: 20px;
 }
 .img {
- float: left;
- padding: 1px;
- border: 1px solid black;
+  position: relative;
+  float: auto;
+  padding: 1px;
+}
+p,
+article {
+  font-size: 20px;
+  border: 1px solid black;
 }
