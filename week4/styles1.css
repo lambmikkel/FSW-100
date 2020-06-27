@@ -23,6 +23,7 @@ img {
 }
 p,
 article {
+  position: relative;
   float: auto;
   padding: 5px;
   border: 1px solid black;
