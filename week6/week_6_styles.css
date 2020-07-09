@@ -1,0 +1,55 @@
+.flex_container {
+  display: flex;
+  background-color: salmon;
+  
+}
+
+.flex-container > div {
+  background-color: orange;
+  margin: 10px;
+  padding: 35px;
+  font-size: 30px;
+  border: solid black;
+}
+
+#box1:hover {
+  background-color: red;
+  font-size: 100px;
+  border: 10px solid green;
+  transition-duration: 2s;
+}
+
+#box2:hover {
+  background-color: yellow;
+  font-size: 100px;
+  border: 10px solid purple;
+  transition-duration: 2s;
+}
+
+#box3:hover {
+  background-color: green;
+  font-size: 100px;
+  border: 20px solid red;
+  transition-duration: 2s;
+}
+
+#box4:hover {
+  background-color: blue;
+  font-size: 100px;
+  border: 10px solid brown;
+  transition-duration: 2s;
+}
+
+#box5:hover {
+  background-color: turquoise;
+  font-size: 100px;
+  border: 20px solid lightslategray;
+  transition-duration: 2s;
+}
+
+#box6:hover {
+  background-color: brown;
+  font-size: 100px;
+  border:40px solid black;
+  transition-duration: 2s;
+}
