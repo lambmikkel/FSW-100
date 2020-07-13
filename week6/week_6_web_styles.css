@@ -4,17 +4,19 @@
   }
 
 table th, td {
-border: 1px solid black;
+border: 3px solid black;
 text-align: center;
+padding: 10px;
 }
+
 body {
   background-color: slategray;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
 
 
@@ -40,16 +42,17 @@ h1:hover {
   background-color: blue;
 }
 
-#nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: lightslategray;
-  font-size: 30px;
-  width: 100%;
-
+.nav_control {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+background-color: lightslategray;
+font-size: 20px;
 }
+
+
+
 
 
 #main {
@@ -88,6 +91,7 @@ img {
     text-align: center;
     grid-column: 1 / 4;
     grid-row: 1 / 4;
+    font-size: 30px;
   }
   
   h1:hover {
@@ -97,7 +101,7 @@ img {
   #nav {
 
     background-color: lightslategray;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     grid-column: 1 / 4;
     
@@ -131,6 +135,7 @@ img {
   #header {
     background-color: lightslategray;
     text-align: center;
+    font-size: 60px;
   }
 
   h1:hover {
@@ -140,6 +145,7 @@ img {
   #nav {
     background-color: lightslategray;
     font-size: 50px;
+    text-align: center;
     
   }
   
