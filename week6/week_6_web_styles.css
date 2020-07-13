@@ -19,7 +19,6 @@ ul {
   margin: 0; /* Remove margins */
 }
 
-
 .container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -29,17 +28,32 @@ ul {
 body {
   background-color: slategray;
 }
+
+/*Mobile*/
+@media screen and (min-width: 425px){
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+}
+
+body {
+  background-color: slategray;
+}
+
+
  
 #header {
   display: flex;
   justify-content: center;
-  background-color: lightslategray;
-  font-size: 30px;
+  background-color: slategray;
+  font-size: 25px;
   text-align: center;
 }
 
-h1:hover {
-  background-color: blue;
+div:hover {
+  background-color:rgba(0, 0, 0, 0.109);
 }
 
 .nav_control {
@@ -47,30 +61,30 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: flex-start;
-background-color: lightslategray;
+background-color: slategray;
 font-size: 20px;
 }
 
 
-
-
-
 #main {
-  background-color: lightslategrey;
+  background-color: slategray;
   font-size: 11px;
   margin: auto;
+  padding: 50px;
 }
 
 
 #foot {
-  background-color: lightslategray;
+  background-color: slategray;
   font-size: 20px;
+  padding: 50px;
 }
 
 img {
   width: 100%;
   height: auto;
   border: 5px solid black;
+}
 }
 
 /*Tablet*/
@@ -87,36 +101,38 @@ img {
   
 
   #header {
-    background-color: lightslategray;
+    background-color: slategray;
     text-align: center;
     grid-column: 1 / 4;
     grid-row: 1 / 4;
     font-size: 30px;
   }
   
-  h1:hover {
-    background-color: blue;
+  div:hover {
+    background-color: rgba(0, 0, 0, 0.109);
   }
 
   #nav {
 
-    background-color: lightslategray;
+    background-color: slategray;
     font-size: 25px;
     text-align: center;
     grid-column: 1 / 4;
-    
+    text-decoration-color: white;
   }
   
   #main {
-    background-color: lightslategrey;
+    background-color: slategrey;
     font-size: 25px;
     grid-column: 1 / 4;
+    padding: 50px;
   }
   
   
   #foot {
-    background-color: lightslategray;
+    background-color: slategray;
     font-size: 20px;
+    padding: 50px;
   }
   
   img {
@@ -133,31 +149,33 @@ img {
   }
   
   #header {
-    background-color: lightslategray;
+    background-color: slategray;
     text-align: center;
     font-size: 60px;
   }
 
-  h1:hover {
-    background-color: blue;
+  div:hover {
+    background-color: rgba(0, 0, 0, 0.109);
   }
 
   #nav {
-    background-color: lightslategray;
+    background-color: slategray;
     font-size: 50px;
     text-align: center;
     
   }
   
   #main {
-    background-color: lightslategrey;
+    background-color: slategrey;
     font-size: 20px;
+    padding: 50px;
   }
   
   
   #foot {
-    background-color: lightslategray;
+    background-color: slategray;
     font-size: 20px;
+    padding: 50px;
   }
   
   img {
