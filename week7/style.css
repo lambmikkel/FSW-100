@@ -1,0 +1,179 @@
+* {
+  font-family: 'Concert One', cursive;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+a:hover {
+  color: white;
+}
+
+h2 {
+  border: 2px solid black;
+}
+
+.nav_control{
+  grid-column: 3/6;
+}
+.nav_control:hover {
+  background-color: red;
+}
+
+.header {
+
+}
+
+body{
+  background-image: url(https://images.unsplash.com/photo-1544919982-b61976f0ba43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80);
+  background-size: 2000px;
+  text-align: center;
+  font-size: 20px;
+}
+
+html {
+  position: relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+#main {
+  background-color: slategray;
+  opacity: 0.7;
+  font-size: 20px;
+  grid-column: 1 / 8;
+}
+
+#main > ol {
+  padding: 5px;
+
+}
+
+h1 {
+  color: solid white;
+}
+
+table th, td {
+  box-sizing: border-box;
+  width: 100%;  
+  padding: 10px;
+  list-style: none;
+  border: 2px solid black;
+  table-layout: fixed;
+  width: 500px;
+}
+
+#header {
+  font-size: 30px;
+  grid-column: 1 / 8;
+}
+
+body {
+  background-color: slategray;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  background-color: slategray;
+  opacity: 0.7;
+}
+
+
+
+body {
+  background-color: slategray;
+}
+
+img {
+  width: auto;
+  opacity: 0.8;
+  grid-column: 3/6;
+}
+
+li {
+  background-color: slategray;
+  opacity: 0.8;
+  
+}
+
+@media screen and (min-device-width: 1200px) { 
+  
+  body {
+    background-image: url(https://images.unsplash.com/photo-1544919982-b61976f0ba43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80);
+    background-size: 2000px;
+  }
+  
+  html {
+    position: relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+  
+  #main {
+    background-color: slategray;
+    opacity: 0.7;
+    font-size: 20px;
+    grid-column: 1 / 8;
+  }
+  
+  #main > ol {
+    padding: 5px;
+  
+  }
+  
+  h1 {
+    color: solid white;
+  }
+  
+  table th, td { 
+  border: 3px solid black;
+  text-align: center;
+  padding: 12px;
+  opacity: 0.7;
+  font-size: 16px;
+  
+  }
+  
+  
+  #header {
+    font-size: 30px;
+  }
+  
+  body {
+    background-color: slategray;
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    
+    opacity: 0.7;
+  }
+  
+  
+  img {
+    width: auto;
+    opacity: 0.5;
+    grid-column: 3/6;
+  }
+  
+  li {
+    background-color: slategray;
+    opacity: 0.8;
+    
+  }
+}
